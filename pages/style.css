@@ -7,7 +7,7 @@ html,
 
 #__next {
   /* The image used */
-  background-image: url('/images/maintenance.png');
+  background-image: url('/images/IMG_8694.PNG');
 
   /* Full height */
   height: 100%;
@@ -16,4 +16,63 @@ html,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container .panel {
+  height: 343px;
+  width: 312px;
+  border-radius: 12px;
+  background-color: #071e3e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  box-sizing: border-box;
+  padding: 16px 50px;
+}
+
+.container .panel .logo {
+  padding-top: 22px;
+}
+
+.container .panel .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .panel .body {
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.text-body {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.grey {
+  color: #ffffff;
+  opacity: 0.34;
 }
