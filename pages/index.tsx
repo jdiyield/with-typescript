@@ -10,7 +10,7 @@ const IndexPage = () => (
         </div>
         <div className="title">
           <h4>Server is under</h4>
-          <h4>Maintanance</h4>
+          <h4>Maintenance</h4>
         </div>
         <div className="body">
           <span className="text-body">We are currently working on our site to give you a better user experience.</span>
